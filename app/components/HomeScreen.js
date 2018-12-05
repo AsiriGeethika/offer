@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { StyleSheet,Text,ScrollView,TouchableOpacity,Button,ImageBackground,View} from 'react-native';
-import Header from './Header';
+import Head from './Header';
 import Content from './Content';
 import DropdownMenu from 'react-native-dropdown-menu';
 
@@ -21,7 +21,7 @@ class HomeScreen extends Component {
     var data = [["Clothing","Hotels","Financial","Mobile Services","Other"]];
     return (
     <ScrollView style={styles.container1}>
-        <Header/>
+        <Head/>
         <ImageBackground source={require('../img/ww.jpg')} style={styles.banner}>
         <View style={styles.container}>
           <Text style={styles.txt1}>Sign in with OfferMe</Text>

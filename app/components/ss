@@ -1,8 +1,0 @@
-<Text style={styles.txt1}>Sign in with Offer Me</Text>
-            <Text style={styles.txt2}>We can personalize your Offer Me experience</Text>    
-            <TouchableOpacity style={styles.btn1} onPress={() => this.props.navigation.navigate('Signin')}>
-                <Text style={styles.buttonText}>Sign in</Text>
-            </TouchableOpacity>
-            <TouchableOpacity style={styles.btn1} onPress={() => this.props.navigation.navigate('Register')}>
-                <Text style={styles.buttonText}>Register</Text>
-            </TouchableOpacity>

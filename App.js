@@ -5,7 +5,6 @@ import HomeScreen from './app/components/HomeScreen';
 import Register from './app/components/Register';
 import SignIn from './app/components/SignIn';
 import AboutUs from './app/components/AboutUs';
-import SideDrawer from './app/components/SideDrawer';
 
 export default class App extends Component {
   render() {
@@ -19,7 +18,6 @@ const AppStackNavigator = createStackNavigator ({
   Reg : Register,
   Signin : SignIn,
   About: AboutUs, 
-  SideDrawer: SideDrawer,
 })
 
 const styles = StyleSheet.create({
